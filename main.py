@@ -125,7 +125,7 @@ def main():
     )
 
     user_prompt = input(
-        "What do you want to build?\n> "
+        "What do you want to build today?\n> "
     )
 
     console.print(
