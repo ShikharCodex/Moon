@@ -121,7 +121,7 @@ Rules:
 def main():
 
     console.print(
-        "\n[bold cyan]AI Coding Agent[/bold cyan]\n"
+        "\n[bold cyan]The Moon AI Agent[/bold cyan]\n"
     )
 
     user_prompt = input(
