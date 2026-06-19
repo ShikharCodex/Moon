@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Tic Tac Toe</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<div class='app'>
+  <h1>Tic Tac Toe</h1>
+  <div class='status' id='status' aria-live='polite'>Player X's turn</div>
+  <div class='board' id='board' role='grid' aria-label='Tic Tac Toe Board'>
+    <button class='cell' data-index='0' role='gridcell' aria-label='Cell 1: empty'></button>
+    <button class='cell' data-index='1' role='gridcell' aria-label='Cell 2: empty'></button>
+    <button class='cell' data-index='2' role='gridcell' aria-label='Cell 3: empty'></button>
+    <button class='cell' data-index='3' role='gridcell' aria-label='Cell 4: empty'></button>
+    <button class='cell' data-index='4' role='gridcell' aria-label='Cell 5: empty'></button>
+    <button class='cell' data-index='5' role='gridcell' aria-label='Cell 6: empty'></button>
+    <button class='cell' data-index='6' role='gridcell' aria-label='Cell 7: empty'></button>
+    <button class='cell' data-index='7' role='gridcell' aria-label='Cell 8: empty'></button>
+    <button class='cell' data-index='8' role='gridcell' aria-label='Cell 9: empty'></button>
+  </div>
+  <div class='controls'>
+    <button id='reset' class='btn'>Reset Game</button>
+  </div>
+</div>
+<script src='script.js'></script>
+</body>
+</html>
